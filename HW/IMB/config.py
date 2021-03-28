@@ -1,0 +1,11 @@
+
+
+
+DEBUG=True
+SECRET_KEY='some secret key'
+
+SQLALCHEMY_DATABASE_URI='sqlite:///test.db'
+
+SQLALCHEMY_TRACK_MODIFICATIONS=False
+
+WTF_CSRF_ENABLED=False
